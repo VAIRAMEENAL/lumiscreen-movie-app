@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import {
   fetchTrendingMovies,
   searchMovies,
-} from "../services/api";
+} from "../Services/api.jsx";
 
 import MovieCard from "../components/MovieCard";
 import SearchBar from "../components/SearchBar";
